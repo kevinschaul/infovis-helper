@@ -5,9 +5,11 @@ Here are some python functions (only one as of now) to help get data in the corr
 
 http://thejit.org/
 
-### Treemaps
+### See the example files for in-depth usage
 
-## createLevel(name, id, area, color, children=[], data={})
+## Treemaps
+
+### createLevel(name, id, area, color, children=[], data={})
 
 * Takes in the label of the square, a unique id, integer size area, hex color, optional list of children, and optional dict of extra data.
 * Returns a dict which can later be put into a list and converted to json.
